@@ -9,7 +9,7 @@ import (
 //  we get 3, 5, 6 and 9. The sum of these multiples is 23.
 func GetSumOfTwoMultiPles(a, b, limit int) int {
 	sum := 0
-	for i := 0; i < limit; i++ {
+	for i := 1; i < limit; i++ {
 		if i%a == 0 {
 			sum += i
 		} else if i%b == 0 {
