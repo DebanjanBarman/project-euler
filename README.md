@@ -1,0 +1,1 @@
+* My try to solve first 100 problems of Project Euler
